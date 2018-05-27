@@ -1,9 +1,7 @@
 def prime?(integer)
-  range = [2...integer.abs]
   prime_flag = true 
   
-  range.each do |num|
-    puts num
+  (2...integer.abs).each do |num|
     if integer.abs == 2 || integer % num == 0 
       prime_flag = false 
     end
