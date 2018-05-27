@@ -1,4 +1,5 @@
 def prime?(integer)
+  positive_integer = 
   range = [2...integer]
   prime_flag = true 
   
