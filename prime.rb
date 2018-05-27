@@ -1,7 +1,7 @@
 def prime?(integer)
   prime_flag = true 
   
-  if integer.abs == 1
+  if integer.abs < 2
     prime_flag = false
   end
   
