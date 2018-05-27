@@ -3,7 +3,7 @@ def prime?(integer)
   prime_flag = true 
   
   range.each do |num|
-    if integer <=2 && integer >-2 || integer % num == 0 
+    if integer.abs == 2 || integer % num == 0 
       prime_flag = false 
     end
   end
